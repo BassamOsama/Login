@@ -23,7 +23,10 @@ console.log(baseURL);
 // To say welcome in home page
 var userName = localStorage.getItem("sessionUsername");
 if (userName) {
-  document.getElementById("userName").innerHTML = "Welcome " + userName;
+  var userNameElement = document.getElementById("userName");
+  if (userNameElement) {
+    userNameElement.innerHTML = "Welcome " + userName;
+  }
 }
 
 // Initialize signUpArray from localStorage
