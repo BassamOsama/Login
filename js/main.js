@@ -108,7 +108,7 @@ function logIn() {
       signUpArray[i].password === password
     ) {
       localStorage.setItem("sessionUsername", signUpArray[i].name);
-      location.replace(https://bassamosama.github.io/Login/home.html);
+      location.replace("https://bassamosama.github.io/Login/home.html");
       return;
     }
   }
