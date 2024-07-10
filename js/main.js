@@ -108,12 +108,7 @@ function logIn() {
       signUpArray[i].password === password
     ) {
       localStorage.setItem("sessionUsername", signUpArray[i].name);
-      var redirectURL =
-        baseURL === "/"
-          ? "http://" + location.hostname + ":5500/home.html"
-          : baseURL + "/home.html";
-      console.log("Redirect URL:", redirectURL);
-      location.replace(redirectURL);
+      location.replace(https://bassamosama.github.io/Login/home.html);
       return;
     }
   }
