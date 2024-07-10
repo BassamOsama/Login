@@ -112,7 +112,7 @@ function logIn() {
         baseURL === "/"
           ? "http://" + location.hostname + ":5500/home.html"
           : baseURL + "/home.html";
-      console.log("Redirect URL:", redirectURL); // Debug logging
+      console.log("Redirect URL:", redirectURL);
       location.replace(redirectURL);
       return;
     }
