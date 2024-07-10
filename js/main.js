@@ -120,4 +120,5 @@ function logIn() {
 // Log out function
 function logOut() {
   localStorage.removeItem("sessionUsername");
+  location.replace("https://bassamosama.github.io/Login");
 }
