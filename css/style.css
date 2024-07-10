@@ -1,0 +1,55 @@
+/*? ------------------------------- -general/global- css ------------------------------ */
+img {
+    width: 100%;
+    height: auto;
+}
+span {
+    display: inline-block;
+}
+.pointer {
+    cursor: pointer;
+}
+body {
+    background: #24353f;
+    font-family: sans-serif;
+}
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    white-space: nowrap;
+    color: #17a2b8;
+}
+/*? ------------------------------------ -custom- css ---------------------------------- */
+.form {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+/*? ---------------------------------- home -------------------------------------------- */
+#home {
+    height: 75vh;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
