@@ -1,9 +1,9 @@
 "use strict";
 
-var username = localStorage.getItem("sessionUsername");
-if (userName == null) {
-  location.replace("https://" + location.hostname + "/index.html");
-}
+// var username = localStorage.getItem("sessionUsername");
+// if (userName == null) {
+//   location.replace("https://" + location.hostname + "/index.html");
+// }
 
 // All inputs
 var signUpName = document.getElementById("signUpName");
